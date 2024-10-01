@@ -17,7 +17,6 @@ WORKDIR /app/Backend
 COPY ./Backend ./   
 
 RUN npm install  
-
 EXPOSE 3044 
 
 CMD ["node", "index.js"]     
